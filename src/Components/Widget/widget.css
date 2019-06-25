@@ -1,0 +1,107 @@
+.widgetContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5px;
+}
+.individualWidget {
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img {
+  max-width: 300px;
+}
+@media (min-width: 600px) {
+  .individualWidget,
+  img {
+    max-width: 150px;
+  }
+  .widgets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header {
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 680px) {
+  .individualWidget,
+  img {
+    max-width: 170px;
+  }
+}
+@media (min-width: 760px) {
+  .individualWidget,
+  img {
+    max-width: 190px;
+  }
+}
+@media (min-width: 800px) {
+  .individualWidget,
+  img {
+    max-width: 200px;
+  }
+}
+@media (min-width: 880px) {
+  .individualWidget,
+  img {
+    max-width: 220px;
+  }
+}
+@media (min-width: 960px) {
+  .individualWidget,
+  img {
+    max-width: 230px;
+  }
+}
+@media (min-width: 1000px) {
+  .individualWidget,
+  img {
+    max-width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .individualWidget,
+  img {
+    max-width: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  .individualWidget,
+  img {
+    max-width: 400px;
+  }
+}
+@media (min-width: 1680px) {
+  .individualWidget,
+  img {
+    max-width: 450px;
+  }
+}
+@media (min-width: 1880px) {
+  .individualWidget,
+  img {
+    max-width: 500px;
+  }
+}
+@media (min-width: 2080px) {
+  .individualWidget,
+  img {
+    max-width: 550px;
+  }
+}
+@media (min-width: 2280px) {
+  .individualWidget,
+  img {
+    max-width: 600px;
+  }
+}
